@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>my profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="loader()">
+    <div id="Loading"></div>
+     <!-----start Hearder section-----> 
+     <div id="hearder"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"> 
+        <div class="contenier">
+            <nav >
+                <img src="./WhatsApp Image 2024-03-07 at 12.42.03.jpeg" alt="logo" class="logo" data-aos="zoom-in">
+                <ul id="sidmenu" data-aos="zoom-in">
+                    <li><a href="#hearder" >Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services">projects</a></li>
+                    <li><a href="#portfolio" >Profile</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text"  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
+                <p>Software Developer</p>
+                <h1>Hi I am <span>Chandra Karravula</span> <br> From India</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----End Hearder section----->
+
+
+      <!-----start About section----->
+      <div id="about"data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="https://t4.ftcdn.net/jpg/05/90/45/35/240_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD.jpg" data-aos="zoom-in" >  
+                </div>
+                <div class="about-col-2" data-aos="zoom-in">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my portfolio! I'm a passionate software developer with a knack for turning ideas into reality through code. With a strong foundation in various programming languages and frameworks, I specialize in crafting intuitive, efficient, and scalable solutions. My journey into the world of software development began with a curiosity-driven exploration of technology, which has since evolved into a dedicated career path. Whether it's developing web applications, designing user-friendly interfaces, or troubleshooting intricate bugs, I thrive on challenges that push the boundaries of my knowledge and skills. I believe in the power of collaboration and continuous learning, constantly seeking new opportunities to expand my expertise and stay updated with industry trends. Beyond writing lines of code, I'm committed to creating meaningful experiences that make a positive impact on users' lives. Outside of coding, you'll often find me exploring the latest tech innovations, experimenting with new development tools, or immersing myself in creative pursuits. I'm excited to share my projects and experiences with you and am always open to new opportunities for collaboration and growth. Let's connect and embark on a journey to transform ideas into extraordinary digital solutions together.</p>
+                   <div class="tab-titles" data-aos="fade-left">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Internships</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills" data-aos="zoom-in">
+                    <ul>
+                        <li><span>Domains</span><br>Cloud, DevOps, Programming, Machine Learning. </li>
+                        <li><span>Programming Languages:</span><br> Python, C, C++, Java, Data Structures and Algorithms. </li>
+                        <li><span>Databases:</span><br> MySQL, SQL, PlSql</li>
+                        <li><span>Tools & IDEs:</span><br>Git, Github, Docker, Visual Studio Code, Power BI, Jenkins, Ansible, Kubernetes, 
+                            Android Studio, IntelliJ. </li>
+                        <li><span>Operating Systems:</span><br>Windows, Linux. 
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span></span><br>Edunet- Cloud Computing(IBM)-web hosting in different cloud environments,aws, azure,ibm.</li>
+                        
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Computer Science and Business Systems, Minor in Cloud Computing</span><br>RVR&JC College of Engineering, Guntur, Andhra Pradesh .</li>
+                        <li><span>Intermediate</span><br>Vidhya Bharathi Junior College, Narsaraopeta, Andhra Pradesh .</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents " id="Certifications">
+                    <ul>
+                        <li><span>IBM</span><br>Cloud Essentials Certification</li>
+                        <li><span>Google</span><br>Google Cloud Digital Leader global certification.<br>Data Analytics Certification from Google.<br>Associate Cloud Engineer</li>
+                        <li><span>Nptel</span><br>Joy of computing using Python course.<br>Cloud Computing Certification Course.<br>Java Programming Certification Course<br></li>
+                        <li><span>Infosys SpringBoard</span><br>Basic Python Course from Infosys SpringBoard </li>
+                        <li><span>CISCO</span><br> Essential from Cisco Network Academy. <br> Python Essential from Skill for All. <br> SQL (Basic) from Hacker Rank </li>
+                        <li><span>JCNIA</span><br>Juniper Networks cloud, associate(JCNIA cloud).<br>Power BI for Beginners from LinkedIn Learning</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-----End About section----->
+
+
+
+
+      <!-----Service section Start----->
+     <div id="services" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+        <div class="contenier" >
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div data-aos="fade-right">
+                    
+                    <h2>Web Development</h2>
+                    <p>Online Restaurant Booking System</p>
+                    <a href="https://github.com/chandrashivaji/miniproject.git">Learn More</a>
+                </div>
+                <div data-aos="flip-up">
+                    
+                    <h2>Website Designer</h2>
+                    <p>SHE CARES: A Women's Health Mobile App.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="fade-left">
+                    
+                    <h2>Cloud technology</h2>
+                    <p> Cloud Web Hosting and Access Control for Static Websites with AWS S3.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+      <!----services section end ----->
+
+
+        <!----portfolio section Start ----->
+
+        <div id="portfolio" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+        <div class="contenier" >
+            <h1 class="sub-title">My Coding Profile</h1>
+            <div class="services-list">
+                <div data-aos="fade-right">
+                    
+                    <h2>Hacker Rank</h2>
+                  
+                    <a href="https://www.hackerrank.com/profile/karravulachandr1">Visit</a>
+                </div>
+                <div data-aos="flip-up">
+                    
+                    <h2>Code Chef</h2>
+                    <a href="https://www.codechef.com/users/chandu_332">Visit</a>
+                </div>
+                <div data-aos="fade-left">
+                    
+                    <h2>Coding Ninjas</h2>
+                    <a href="https://www.codingninjas.com/studio/profile/CHANDRAK">Visit</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+         <!----portfolio section End ----->
+
+
+          <!----Contact section Start ----->
+          <div id="contact"  >
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left"  data-aos="fade-up-right">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>karravulachandra2001@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>+91 7032269433</p>
+                        <div class="social-icons" data-aos="zoom-in">
+            
+                            
+                            <a target="_blank" class="github" href="https://github.com/karravulachandra/"><i class="fa-brands fa-github"></i></a>
+                            <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/karravula-chandra-241306221/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="./finalreschandra.pdf" class="btn btn2">View Resume</a>
+
+                    </div>
+                    <div class="contact-right" data-aos="fade-up-left">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2024 Website Developed By <span style="color: rgb(224, 44, 44);">Chandra Karravula</span></p>
+            </div>
+          </div>
+   
+          <!----Contact section End ----->
+          <script>
+            var preloader = document.getElementById("Loading");
+            function loader(){
+              preloader.style.display = 'none';
+            }
+          </script>
+  
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+      </script>
+      
+    <!-- aos data  -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 900,
+        });
+      </script>
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+        function openmenu(){
+            sidmenu.style.right ="0";
+        }
+        function closemenu(){
+            sidmenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
